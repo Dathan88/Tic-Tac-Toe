@@ -1,0 +1,477 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"auto\ttable-layout"
+			],
+			[
+				"remo",
+				"removeBtn"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"getEleme",
+				"getElementById"
+			],
+			[
+				"boder",
+				"border-radius\tproperty"
+			],
+			[
+				"my",
+				"myForm"
+			],
+			[
+				"bord",
+				"border-box\tbox-sizing"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"consol",
+				"console.log"
+			],
+			[
+				"word",
+				"word-spacing\tproperty"
+			],
+			[
+				"submit",
+				"submitBtn"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"getElem",
+				"getElementsByClassName"
+			],
+			[
+				"display",
+				"displayArray"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"form",
+				"form-search"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"na",
+				"nav-links"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"show",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"jsp",
+				"JsPrettier: Format Code"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"git ",
+				"git: commit"
+			],
+			[
+				"bra",
+				"git: branch"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 223.0,
+		"history":
+		[
+			"git status"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Dathan/Projects"
+	],
+	"file_history":
+	[
+		"/C/Users/Dathan/Projects/test/scripts/test.js",
+		"/C/Users/Dathan/Projects/test/styles/style.css",
+		"/C/Users/Dathan/Projects/test/test.html",
+		"/C/Users/Dathan/Projects/test/scripts/jquery-3.3.1.slim.js",
+		"/C/Users/Dathan/Projects/Books/Books.js",
+		"/C/Users/Dathan/Projects/Books/style.css",
+		"/C/Users/Dathan/Projects/Books/Books.html",
+		"/C/Users/Dathan/Projects/Books/.git/COMMIT_EDITMSG",
+		"/C/Users/Dathan/Projects/SublimeProjects/Books/Books.sublime-project",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/JSHint/Base File.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/All Autocomplete.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+		"/C/Users/Dathan/Projects/Books/Bookshtml.sublime-project",
+		"/C/Users/Dathan/odinProjects/Finished Odin Exercises/calculator/calculator.spec.js",
+		"/C/Users/Dathan/odinProjects/Finished Odin Exercises/calculator/README.md",
+		"/C/Users/Dathan/odinProjects/Finished Odin Exercises/calculator/calculator.js",
+		"/C/Users/Dathan/Projects/Books/package-lock.json",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Dathan/Projects/Etch-a-Sketch/Etch-a-Sketch.html",
+		"/C/Users/Dathan/Projects/Calculator/style.css",
+		"/C/Users/Dathan/myProjects/odinProject/Books/style.css",
+		"/C/Users/Dathan/myProjects/odinProject/Books/Books.js",
+		"/C/Users/Dathan/myProjects/odinProject/Books/Books.html",
+		"/C/Users/Dathan/myProjects/odinProject/Books/Books.style",
+		"/C/Users/Dathan/.bash_profile",
+		"/C/Users/Dathan/.bashrc",
+		"/C/Users/Dathan/.bashr",
+		"/C/Users/Dathan/odin_on_rails/my_first_rails_app/config/routes.rb",
+		"/C/Users/Dathan/odin_on_rails/my_first_rails_app/Gemfile",
+		"/C/Users/Dathan/.bash_history",
+		"/C/Users/Dathan/NTUSER.DAT",
+		"/C/Users/Dathan/Coding_Projects/Calculator/calculator.js",
+		"/C/Users/Dathan/Coding_Projects/Calculator/style.css",
+		"/C/Users/Dathan/Coding_Projects/Calculator/calculator.html",
+		"/C/Users/Dathan/Coding_Projects/Calculator/calculator2.js",
+		"/C/Users/Dathan/Coding_Projects/Calculator/calculator2.html",
+		"/C/Users/Dathan/Coding_Projects/Calculator/calculator1.js",
+		"/C/Users/Dathan/Coding_Projects/Calculator/calculator1.html",
+		"/C/Users/Dathan/Coding_Projects/Calculator/README.md",
+		"/C/Users/Dathan/Coding_Projects/the_odin_project/Finished Odin Exercises/calculator/README.md",
+		"/C/Users/Dathan/.ssh/id_rsa.pub",
+		"/C/Users/Dathan/Coding_Projects/Calculator/Calculator.html",
+		"/C/Users/Dathan/Coding_Projects/Etch-a-Sketch/README.md",
+		"/C/Users/Dathan/Coding_Projects/Etch-a-Sketch/Etch-a-Sketch.html",
+		"/C/Users/Dathan/Coding_Projects/JavaScript Drum Kit/index-FINISHED.html",
+		"/C/Users/Dathan/Coding_Projects/RockPaperScissors/OdinRockPaperS2.html",
+		"/C/Users/Dathan/Coding_Projects/RockPaperScissors/OdinRockPaperS.html",
+		"/C/Users/Dathan/Coding_Projects/the_odin_project/Finished Odin Exercises/Odin DOM Manipulation/DomManipulation.html",
+		"/C/Users/Dathan/Coding_Projects/Etch-a-Sketch/.git/COMMIT_EDITMSG",
+		"/C/Users/Dathan/Desktop/Coding_Projects/RockPaperScissors/OdinRockPaperS2.html",
+		"/C/Users/Dathan/Desktop/Coding_Projects/RockPaperScissors/OdinRockPaperS.html",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Dathan/Desktop/Coding_Projects/01 - JavaScript Drum Kit/style.css",
+		"/C/Users/Dathan/Desktop/Coding_Projects/01 - JavaScript Drum Kit/index-START.html",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/sumAll/sumAll.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/sumAll/sumAll.spec.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/New/new.html",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Odin DOM Manipulation/DomMethodPractice.html",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Odin DOM Manipulation/DomManipulation.html",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/OdinExercises/sumAll/sumAll.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/OdinExercises/sumAll/sumAll.spec.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/OdinExercises/sumAll/README.md",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/calculator/calculator.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/repeatString/repeatString.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/fibonacci/fibonacci.spec.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/fibonacci/README.md",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/fibonacci/fibonacci.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/calculator/README.md",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/calculator/calculator.spec.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/calculator/calculator.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/caesar/README.md",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/caesar/caesar.spec.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/caesar/caesar.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/generator-exercise/README.md",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/reverseString/reverseString.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/reverseString/reverseString.spec.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/reverseString/README.md",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/repeatString/README.md",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/repeatString/repeatString.spec.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/repeatString/repeatString.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/helloWorld/README.md",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/helloWorld/helloWorld.spec.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/helloWorld/helloWorld.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/node-test.js",
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/hello.js",
+		"/C/Users/Dathan/Desktop/Coding Projects/Odin/Practice.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/Odin/OdinFunPt3-HW-.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/Odin/OdinRockPaperS.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/Odin/Odin.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/Tic Tac Toe/TicTacToe.js",
+		"/C/Users/Dathan/Desktop/Coding Projects/Tic Tac Toe/style.css",
+		"/C/Users/Dathan/Desktop/Coding Projects/Tic Tac Toe/TicTacToe.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/DammitDathan/style.css",
+		"/C/Users/Dathan/Desktop/Coding Projects/DammitDathan/NewProject.js",
+		"/C/Users/Dathan/Desktop/Coding Projects/DammitDathan/DammitDathan.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/New Project/NewProject.js",
+		"/C/Users/Dathan/Desktop/Coding Projects/New Project/style.css",
+		"/C/Users/Dathan/Desktop/Coding Projects/New Project/DammitDathan.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/New Project/NewProject.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/New Project/Styles.css",
+		"/C/Users/Dathan/Desktop/Coding Projects/New Project/NewProject.css",
+		"/C/Users/Dathan/Desktop/Coding Projects/Array Cardio #1/index-FINISHED.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/Array Cardio #1/index-START.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/CSS Variables/index-START.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/CSS Variables/index-FINISHED.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/Clock/index-START.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/Clock/index-FINISHED.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/Drumkit/style.css",
+		"/C/Users/Dathan/Desktop/Coding Projects/Drumkit/index-START.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/Online Form/css/style.css",
+		"/C/Users/Dathan/Desktop/Coding Projects/Online Form/index.html",
+		"/C/Users/Dathan/Desktop/Coding Projects/CSS Buttons/stylesheets.css",
+		"/C/Users/Dathan/Desktop/Coding Projects/CSS Buttons/index.html",
+		"/C/Users/Dathan/Desktop/the-odin-project/solve-problems/index.html",
+		"/C/Users/Dathan/Desktop/the-odin-project/google-homepage/index.html",
+		"/C/Users/Dathan/Desktop/the-odin-project/google-homepage/css",
+		"/C/Users/Dathan/Desktop/the-odin-project/google-homepage/README.md",
+		"/C/Users/Dathan/git_projects/git_test/README.md",
+		"/C/Users/Dathan/Downloads/Exercise Files/index-START.html",
+		"/C/Users/Dathan/Downloads/Exercise Files/index-FINISH.html",
+		"/C/Users/Dathan/AppData/Local/Temp/7zED22F.tmp/style.css",
+		"/C/Users/Dathan/AppData/Local/Temp/7zED22F.tmp/index-FINISH.html",
+		"/C/Users/Dathan/AppData/Local/Temp/7zED22F.tmp/index-START.html",
+		"/C/Users/Dathan/Downloads/Exercise-Files.zip",
+		"/C/Users/Dathan/Desktop/Code Stuff/index.html",
+		"/C/Users/Dathan/Documents/index.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 61.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 97.0
+	},
+	"output.exec":
+	{
+		"height": 157.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 115.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 269.0
+	},
+	"pinned_build_system": "",
+	"project": "tictactoe.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 71.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 132.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
