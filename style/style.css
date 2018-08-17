@@ -20,7 +20,6 @@ header {
 #results {
 	position: relative;
 	margin: 1em auto;
-	border: 1px solid black;
 	width: 7em;
 	height: 2em
 }
@@ -42,6 +41,7 @@ header {
 	border: 1px solid black;
 	box-sizing: border-box;
 	text-align: center;
+	border: 1px solid black;
 	font-size: 8em;
 }
 
