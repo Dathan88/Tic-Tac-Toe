@@ -139,7 +139,7 @@
 			"file": "tictactoe.html",
 			"settings":
 			{
-				"buffer_size": 762,
+				"buffer_size": 765,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -148,16 +148,16 @@
 			"file": "style/style.css",
 			"settings":
 			{
-				"buffer_size": 1166,
+				"buffer_size": 1226,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 1399,
+				"buffer_size": 1761,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -176,7 +176,147 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: Disable Package"
+				"Package Control: Install Package"
+			],
+			[
+				"pr",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"color s",
+				"UI: Select Color Scheme"
+			],
+			[
+				"gutt",
+				"GutterColor: Fix Current Color Scheme"
+			],
+			[
+				"",
+				"Arithmetic"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"gutter",
+				"GutterColor: Clear Cache"
+			],
+			[
+				"widget",
+				"DA UI: Widget Settings"
+			],
+			[
+				"default",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"color sch",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color scheme",
+				"PackageDev: New Color Scheme"
+			],
+			[
+				"vpf",
+				"View Package File"
+			],
+			[
+				"view",
+				"View Package File"
+			],
+			[
+				"vie",
+				"View Package File"
+			],
+			[
+				"skin",
+				"DA UI: Select Skin"
+			],
+			[
+				"packageres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"user",
+				"Nodejs::User File Settings"
+			],
+			[
+				"mater",
+				"Material Theme: Activate theme"
+			],
+			[
+				"wid",
+				"DA UI: Widget Settings"
+			],
+			[
+				"color sc",
+				"UI: Select Color Scheme"
+			],
+			[
+				"package",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"col",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colorsubl",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"the",
+				"DA UI: Theme Settings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"DA colo",
+				"DA UI: Color Scheme Settings"
+			],
+			[
+				"Package Control:",
+				"Package Control: Remove Repository"
+			],
+			[
+				"ui: se",
+				"UI: Select Color Scheme"
+			],
+			[
+				"ui sele",
+				"UI: Select Theme"
 			],
 			[
 				"disable",
@@ -197,10 +337,6 @@
 			[
 				"debug",
 				"BracketHighlighter: Enable Debug Mode"
-			],
-			[
-				"",
-				"BracketHighlighter: Swap Quotes"
 			],
 			[
 				"ope",
@@ -239,10 +375,6 @@
 				"SublimeLinter: Show All Errors"
 			],
 			[
-				"Package Control:",
-				"Package Control: Install Package"
-			],
-			[
 				"jsp",
 				"JsPrettier: Format Code"
 			],
@@ -267,9 +399,10 @@
 	},
 	"console":
 	{
-		"height": 214.0,
+		"height": 162.0,
 		"history":
 		[
+			"color",
 			"cmd(self)",
 			"debug",
 			"-h",
@@ -298,19 +431,60 @@
 	"expanded_folders":
 	[
 		"/C/Users/Dathan/Projects",
-		"/C/Users/Dathan/Projects/Books",
-		"/C/Users/Dathan/Projects/node"
+		"/C/Users/Dathan/Projects/Etch-a-Sketch",
+		"/C/Users/Dathan/Projects/RockPaperScissors"
 	],
 	"file_history":
 	[
-		"/C/Users/Dathan/Projects/node/myfirst.js",
-		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/Dathan/Projects/tictactoe/js/experiment.js",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/Babel.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Dathan/Projects/RockPaperScissors/OdinRockPaperS.html",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/3024 Color Scheme/3024 Night.tmTheme",
+		"/C/Users/Dathan/AppData/Local/Google/Chrome/User Data/Default/Extensions/npadhaijchjemiifipabpmeebeelbmpd/1.1.2_0/manifest.json",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/ayu/ayu-dark.sublime-theme",
+		"/C/Users/Dathan/Projects/RockPaperScissors/RockPaperS.html",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/MyZombie.tmTheme",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/Colorsublime.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/LiveStyle/LiveStyle.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/LiveStyle.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-commands",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/gutter_color.py",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/line.py",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/file.py",
+		"/C/Users/Dathan/Projects/tictactoe/style/style.css",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/MyZombie.gcfix.tmTheme",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/ZeroDarkMatrix.gcfix.tmTheme",
+		"/C/Users/Dathan/Projects/tictactoe/js/main.js",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/ZeroDarkMatrix.tmTheme",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Default/Widget.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/PackageResourceViewer/README.md",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/PackageResourceViewer/PackageResourceViewer.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/PackageResourceViewer.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Installed Packages/Theme - Soda SolarizedDark.sublime-package",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Colorsublime - Themes/All_Hallows_Eve.tmTheme",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/C/Users/Dathan/Projects/tictactoe/tictactoe.html",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/SublimeMagick.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/trailing_spaces.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/SublimeMagick/SublimeMagick.sublime-settings",
 		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Windows/System32/convert.exe",
+		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Installed Packages/ImageMagick.sublime-package",
+		"/C/Users/Dathan/Projects/node/myfirst.js",
 		"/C/Users/Dathan/Projects/Etch-a-Sketch/Etch-a-Sketch.html",
 		"/C/Users/Dathan/AppData/Local/GitHubDesktop/app-1.3.2/Tic-Tac-Toe/style/style.css",
 		"/C/Users/Dathan/Projects/Calculator/calculator.js",
 		"/C/Users/Dathan/Projects/Books/Books.js",
-		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/trailing_spaces.sublime-settings",
 		"/C/Users/Dathan/Projects/tictactoe/js/jquery-3.3.1.js",
 		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
 		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
@@ -319,17 +493,13 @@
 		"/C/Users/Dathan/package.json",
 		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
 		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/Example.sublime-keymap",
-		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/3024 Color Scheme/3024 Night.tmTheme",
 		"/C/Users/Dathan/.eslintrc.js",
 		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/ESLint.sublime-settings",
 		"/C/Users/Dathan/.eslintrc",
 		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/ESLint/ESLint.sublime-settings",
 		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/C/Users/Dathan/Projects/tictactoe/js/main.js",
 		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/Default (Windows).sublime-keymap",
-		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/User/Babel.sublime-settings",
-		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
 		"/C/Users/Dathan/Projects/jqueryfiles/jquery-3.3.1.slim.js",
 		"/C/Users/Dathan/Projects/test/test.html",
 		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Installed Packages/SublimeLinter-jsl.sublime-package",
@@ -350,7 +520,6 @@
 		"/C/Users/Dathan/odinProjects/Finished Odin Exercises/calculator/calculator.js",
 		"/C/Users/Dathan/Projects/Books/package-lock.json",
 		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
-		"/C/Users/Dathan/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
 		"/C/Users/Dathan/Projects/Calculator/style.css",
 		"/C/Users/Dathan/myProjects/odinProject/Books/style.css",
 		"/C/Users/Dathan/myProjects/odinProject/Books/Books.js",
@@ -394,47 +563,11 @@
 		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/OdinExercises/sumAll/sumAll.spec.js",
 		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/OdinExercises/sumAll/README.md",
 		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/calculator/calculator.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/repeatString/repeatString.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/fibonacci/fibonacci.spec.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/fibonacci/README.md",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/fibonacci/fibonacci.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/calculator/README.md",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/calculator/calculator.spec.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/calculator/calculator.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/caesar/README.md",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/caesar/caesar.spec.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/caesar/caesar.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/generator-exercise/README.md",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/reverseString/reverseString.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/reverseString/reverseString.spec.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/reverseString/README.md",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/repeatString/README.md",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/repeatString/repeatString.spec.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/repeatString/repeatString.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/helloWorld/README.md",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/helloWorld/helloWorld.spec.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/Exercises/helloWorld/helloWorld.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/node-test.js",
-		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/hello.js",
-		"/C/Users/Dathan/Desktop/Coding Projects/Odin/Practice.html",
-		"/C/Users/Dathan/Desktop/Coding Projects/Odin/OdinFunPt3-HW-.html",
-		"/C/Users/Dathan/Desktop/Coding Projects/Odin/OdinRockPaperS.html",
-		"/C/Users/Dathan/Desktop/Coding Projects/Odin/Odin.html",
-		"/C/Users/Dathan/Desktop/Coding Projects/Tic Tac Toe/TicTacToe.js",
-		"/C/Users/Dathan/Desktop/Coding Projects/Tic Tac Toe/style.css",
-		"/C/Users/Dathan/Desktop/Coding Projects/Tic Tac Toe/TicTacToe.html",
-		"/C/Users/Dathan/Desktop/Coding Projects/DammitDathan/style.css",
-		"/C/Users/Dathan/Desktop/Coding Projects/DammitDathan/NewProject.js",
-		"/C/Users/Dathan/Desktop/Coding Projects/DammitDathan/DammitDathan.html",
-		"/C/Users/Dathan/Desktop/Coding Projects/New Project/NewProject.js",
-		"/C/Users/Dathan/Desktop/Coding Projects/New Project/style.css",
-		"/C/Users/Dathan/Desktop/Coding Projects/New Project/DammitDathan.html",
-		"/C/Users/Dathan/Desktop/Coding Projects/New Project/NewProject.html",
-		"/C/Users/Dathan/Desktop/Coding Projects/New Project/Styles.css"
+		"/C/Users/Dathan/Desktop/Coding_Projects/Odin/repeatString/repeatString.js"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 54.0
 	},
 	"find_in_files":
 	{
@@ -448,6 +581,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"let",
+			"playerFactory",
+			"name",
+			"key",
+			":",
+			"class",
+			"background_path",
+			"background",
+			"mon_color",
+			"<key>background</key>",
+			"#000000",
+			"black",
+			"background",
+			"Zero",
+			"Zero Dark",
+			"background",
+			"color",
+			"html",
+			"fact",
+			"icon",
 			"99.5%",
 			"25em",
 			"30em",
@@ -567,37 +720,46 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 762,
+						"buffer_size": 765,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								711,
-								711
+								403,
+								403
 							]
 						],
 						"settings":
 						{
-							"SL.13.region_keys":
-							[
-							],
-							"SL.62.region_keys":
-							[
-							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										429,
+										435
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										369,
+										375
+									]
 								},
 								"unmatched":
 								{
@@ -615,36 +777,84 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										396,
+										402
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										369,
+										375
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -655,29 +865,21 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -688,54 +890,31 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
-							"git_savvy.repo_path": "C:\\Users\\Dathan\\Projects\\tictactoe",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"git_gutter_enable": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -750,22 +929,136 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1166,
+						"buffer_size": 1226,
 						"regions":
 						{
+							"gutter_color_568":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_660":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_688":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										688,
+										713
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_779":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_780":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										781,
+										796
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_781":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										781,
+										796
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_782":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										781,
+										796
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_783":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_837":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										837,
+										849
+									]
+								],
+								"scope": "gutter_color"
+							}
 						},
 						"selection":
 						[
 							[
-								808,
-								808
+								1130,
+								1130
 							]
 						],
 						"settings":
 						{
-							"SL.14.region_keys":
-							[
-							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -774,8 +1067,8 @@
 								{
 									"1":
 									[
-										1083,
-										1084
+										1146,
+										1147
 									]
 								},
 								"icon":
@@ -790,8 +1083,8 @@
 								{
 									"1":
 									[
-										1016,
-										1017
+										1079,
+										1080
 									]
 								},
 								"unmatched":
@@ -800,46 +1093,6 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -850,11 +1103,51 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content"
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -862,8 +1155,8 @@
 								{
 									"1":
 									[
-										999,
-										1000
+										1146,
+										1147
 									]
 								},
 								"icon":
@@ -878,8 +1171,8 @@
 								{
 									"1":
 									[
-										807,
-										808
+										1079,
+										1080
 									]
 								},
 								"unmatched":
@@ -888,46 +1181,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -938,16 +1191,58 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content"
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 546.0,
+						"translation.y": 512.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -959,25 +1254,19 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1399,
+						"buffer_size": 1761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								689,
-								689
+								1670,
+								1670
 							]
 						],
 						"settings":
 						{
-							"SL.15.region_keys":
-							[
-							],
-							"SL.69.region_keys":
-							[
-							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -986,8 +1275,8 @@
 								{
 									"1":
 									[
-										696,
-										697
+										1727,
+										1728
 									]
 								},
 								"icon":
@@ -1002,8 +1291,8 @@
 								{
 									"1":
 									[
-										672,
-										673
+										191,
+										192
 									]
 								},
 								"unmatched":
@@ -1012,46 +1301,6 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1062,11 +1311,51 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content"
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -1074,8 +1363,8 @@
 								{
 									"1":
 									[
-										697,
-										698
+										1744,
+										1745
 									]
 								},
 								"icon":
@@ -1090,8 +1379,8 @@
 								{
 									"1":
 									[
-										672,
-										673
+										191,
+										192
 									]
 								},
 								"unmatched":
@@ -1100,46 +1389,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1150,18 +1399,58 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content"
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 182.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1172,7 +1461,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 54.0
 	},
 	"input":
 	{
@@ -1237,7 +1526,7 @@
 	"project": "tictactoe.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1275,7 +1564,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 141.0,
+	"side_bar_width": 107.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
