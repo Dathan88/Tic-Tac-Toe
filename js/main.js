@@ -37,7 +37,6 @@ const playGame = (() => {
 		});
 		const player1 = Player({ name: user1, mark: mark1 });
 		const player2 = Player({ name: user2, mark: mark2 });
-		let playersList = [];
 
 			console.log(player2.info());
 			console.log(player1.info());
@@ -46,14 +45,13 @@ const playGame = (() => {
 			$(bottomDisplay).attr("id", "bottomDisplay");
 			$("div#board").after(bottomDisplay);
 			$("#bottomDisplay").html(`<p id="player1Info"> ${player1.info()} </p>` + `<p id="player2Info"> ${player2.info()} </p>`);
-			/*$(".squares").toggle("click", function() {
-					$(this).text();
-			});*/
-			console.log(Player instanceof Object);
-			/*for() {
-				console.log();
-			}*/
-			console.log($("Player").find("Object"));
+			
+			$(".squares").one("click", function() {
+				$(this).replaceWith(function() {
+					return player1.mark;
+				})
+			});
+		console.log(player1.mark);
 	})();
 	//clears board
 	const clearGameBoard = () => {
