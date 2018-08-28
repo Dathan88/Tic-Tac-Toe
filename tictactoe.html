@@ -2,19 +2,31 @@
 <html>
 <head>
 	<title>Tic Tac Toe</title>
-	<link href='https://fonts.googleapis.com/css?family=Alike' rel='stylesheet'>
+	<link src="customfont/Alike-Regular.ttf" rel='stylesheet'>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
 	<header>Tic-Tac-Toe</header>
 	<div class="container">
 
-		<div id="results"></div>
-
 		<div id="board" class="board"></div>
 
+		<form id="myForm">
+			<fieldset>
+			Player #1 Name <input text="text" class="playerInput" name="player1Name">
+			<br>
+			Player #1 Mark <input type="text" class="playerInput">
+			<br>
+			Player #2 Name <input text="text" class="playerInput" name="player2Name">
+			<br>
+			Player #2 Mark <input type="text">
+			<br>
+			<input id="submitBtn" type="submit" value="Submit">
+			</fieldset>
+		</form>
+
 		<div id="btnContainer">
-			<button id="newGame">Start</button>
+			<button id="newGameBtn">New Game</button>
 		</div>
 
 	</div>

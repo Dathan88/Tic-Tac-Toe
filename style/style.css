@@ -1,7 +1,8 @@
 html {
 	font-family: Alike;
-	height: 100%;
-	width: 100%;
+	height: 95%;
+	width: 95%;
+	margin: auto;
 }
 
 body {
@@ -27,17 +28,10 @@ header {
 	margin: auto;
 }
 
-#results {
-	position: relative;
-	margin: auto;
-	width: 30em;
-	height: 1.25em;
-}
-
 #board {
 	position: relative;
-	width: 30em;
-	height: 30em;
+	width: 26em;
+	height: 26em;
 	display: grid;
 	grid-gap: 0;
 	margin: auto;
@@ -50,14 +44,16 @@ header {
 	height: 100%;
 	box-sizing: border-box;
 	text-align: center;
-	border: 1px solid green;
-	font-size: 5em;
-	padding: 15%;
+	border: 2px solid black;
 }
 
 .squareContent {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	font-size: 6.5em;
 	margin: auto;
-	color: purple;
+	color: blue;
 }
 
 #bottomDisplay {
@@ -79,13 +75,24 @@ header {
 #btnContainer {
 	position: relative;
 	height: 3.5em;
-	width: 8em;
+	width: 9.8em;
 	margin: auto;
 }
 
-#newGame {
+#newGameBtn {
 	position: relative;
+	font-size: 1.5em;
 	height: 100%;
 	width: 100%;
 	margin: auto;
 }
+
+#square1 { border-style: none solid solid none; border-width: medium; }
+#square2 { border-style: none solid solid solid; border-width: medium; }
+#square3 { border-style: none none solid solid; border-width: medium; }
+#square4 { border-style: solid solid solid none; border-width: medium; }
+#square5 { border-style: solid solid solid solid; border-width: medium; }
+#square6 { border-style: solid none solid solid; border-width: medium; }
+#square7 { border-style: solid solid none none; border-width: medium; }
+#square8 { border-style: solid solid none solid; border-width: medium; }
+#square9 { border-style: solid none none solid; border-width: medium; }
