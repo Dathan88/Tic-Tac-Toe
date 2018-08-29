@@ -34,7 +34,7 @@ header {
 	height: 26em;
 	display: grid;
 	grid-gap: 0;
-	margin: auto;
+	margin: 1em auto;
 	grid-template-columns: repeat(3, 33%);
 	grid-template-rows: repeat(3, 33%);
 }
@@ -56,11 +56,11 @@ header {
 	color: blue;
 }
 
-#bottomDisplay {
+#playerDisplay {
 	margin: .5em auto;
 }
 
-#bottomDisplay p {
+#playerDisplay p {
 	position: relative;
 	width: 10em;
 	text-align: center;
