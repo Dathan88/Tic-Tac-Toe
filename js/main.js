@@ -1,6 +1,6 @@
 "use strict";
-//Helps with playersTurn function
-let turn = 0;
+//Helps with gamePlay function
+let turn = -1;
 
 //Prompts for user input on player name/mark
 const userInput = (() => {
@@ -8,7 +8,7 @@ const userInput = (() => {
 	const mark1 = prompt("Would " + user1 + " like to change game letters?", "q").toUpperCase();
 	const user2 = prompt("Player #2 - What is Your Name", "Frank");
 	const mark2 = prompt("Would " + user2 + " like to change game letters?", "w").toUpperCase();
-	console.log(user1, user2)
+	console.log(user1, user2);
 	return { user1, user2, mark1, mark2 };
 })();
 console.log(typeof userInput);
@@ -28,13 +28,13 @@ const player2 = Player(userInput.user2, userInput.mark2);
 
 //Object housing game board array for gameboard moves
 const gameBoard = {
-	boardArray : ["", "", "","", "", "","", "", ""]
+	boardArray : ["", "", "", "", "", "", "", "", ""]
 };
 console.log( gameBoard );
 
 //Creates/Displays game board
-function creategameBoard() {
-	//loops through each element in array/displays values on board
+function renderBoard() {
+	//loops through each element in array to create board
 	$.each(gameBoard.boardArray, function(index) {
 		const square = document.createElement("DIV");
 		const markValue = document.createElement("P");
@@ -49,17 +49,10 @@ function creategameBoard() {
 		//attaches squares to board and square content
 		$("div#board").append(square);
 		$(square).append(markValue);
+			//console.log(index);
 	});
-	//Makes first move and triggers playersTurn function
-	$("p.squareContent").click(function() {
-		//gameBoard.boardArray.push(player1.mark);
-		$(this).text(function() {
-			console.log( $(".squareContent").index(this) );
-			$(this).text(player1.mark),
-			playersTurn(),
-			$(this).off("click");
-		})
-	});
+	//Calls gamePlay function
+	gamePlay();
 };
 
 //create players display
@@ -73,37 +66,36 @@ const createDisplays = (function() {
 //clears board - new game
 function clearBoard() {
 	$(".squares").remove();
+	$("#topDisplay").empty();
 	gameBoard.boardArray = ["", "", "","", "", "","", "", ""];
-	creategameBoard();
+	renderBoard();
 };
 
-//Controls who's turn is it
-const playersTurn = () => {
-	turn++;
-	$("p.squareContent").each(function(index) {
-		//console.log(index)
+//Controls players turn
+function gamePlay() {
+	const gameBoardArray = gameBoard.boardArray;
+
+	$("p.squareContent").on("click", function() {
+		const squareIndex = $("p.squareContent").index(this);
+		turn++;
 		if(turn % 2 === 0) {
-			$("p.squareContent").one("click", function() {
-				$(this).off("click");
-				$(this).text(player1.mark)
-				console.log( $(".squareContent").index(this) );
-				//gameBoard.boardArray.push(player1.mark);
-				//console.log(gameBoard.boardArray);
-			})
+			$(this).text(player1.mark);
+			console.log( squareIndex );
+			gameBoard.boardArray.splice( squareIndex, 1, player1.mark );
+			console.log( gameBoard.boardArray, squareIndex );
+			$("#topDisplay").html(`<p>~ ${player1.name}'s Turn ~</p>`);
 		} else {
-			$("p.squareContent").one("click", function() {
-				$(this).off("click");
-				$(this).text(player2.mark)
-				console.log( $(".squareContent").index(this) );
-				//gameBoard.boardArray.push(player2.mark);
-				//console.log(gameBoard.boardArray);
-			})
+			$(this).text(player2.mark);
+			gameBoard.boardArray.splice(squareIndex, 1, player2.mark);
+			console.log( gameBoard.boardArray, squareIndex );
+			$("#topDisplay").html(`<p>~ ${player2.name}'s Turn ~</p>`);
 		}
+	$(this).off("click");
 	})
+	console.log( gameBoard.boardArray );
 	console.log( turn );
-	return turn;
 };
 
-const rules = () => {}
+const rules = () => {};
 
-creategameBoard()
+renderBoard();

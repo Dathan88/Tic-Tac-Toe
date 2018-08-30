@@ -28,6 +28,19 @@ header {
 	margin: auto;
 }
 
+#topDisplay {
+	position: relative;
+	width: 26em;
+	height: 2.5em;
+	margin: auto;
+	text-align: center;
+}
+
+#topDisplay p {
+	margin: auto;
+	font-size: 2em;
+}
+
 #board {
 	position: relative;
 	width: 26em;
