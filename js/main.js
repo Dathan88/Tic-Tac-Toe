@@ -14,7 +14,6 @@ const userInput = (() => {
 		'Would ' + user2 + ' like to change game letters?',
 		'w'
 	).toUpperCase();
-	console.log(user1, user2);
 	return { user1, user2, mark1, mark2 };
 })();
 
@@ -37,7 +36,6 @@ let player2Array = [];
 const gameBoard = {
 	boardArray: ['', '', '', '', '', '', '', '', ''],
 };
-console.log(gameBoard);
 
 //Creates/Displays board
 function renderBoard() {
@@ -56,7 +54,7 @@ function renderBoard() {
 		//attaches squares to board and square content
 		$('div#board').append(square);
 		$(square).append(markValue);
-		//console.log(index);
+
 		return index;
 	});
 	//Calls gamePlay function
@@ -64,7 +62,7 @@ function renderBoard() {
 }
 
 //create players display
-const createDisplays = (function() {
+const createPlayerDisplays = (function() {
 	const playerDisplay = document.createElement('DIV');
 	$(playerDisplay).attr('id', 'playerDisplay');
 	$('div#board').after(playerDisplay);
@@ -111,7 +109,7 @@ function gamePlay() {
 		if (turn >= 4) {
 			rules();
 		}
-		console.log(turn);
+		// console.log(turn);
 		console.log(player1Array, player2Array);
 	});
 	return player1Array, player2Array;
@@ -129,34 +127,28 @@ function rules() {
 		[2, 4, 6],
 	];
 
-	for (let i = 0; i < winningPlays.length; i++) {
-		if (winningPlays[i] == player1Array) {
-			$('#topDisplay').html(`<p>~ ${player1.name} Wins!! ~</p>`);
-			console.log('Yay Player 1');
-			return true;
-		} else if (winningPlays[i] == player2Array) {
-			$('#topDisplay').html(`<p>~ ${player2.name} Wins!! ~</p>`);
-			console.log('Yay Player 2');
-			return true;
-		} else {
-			console.log(winningPlays[i], player1Array[i]);
-			console.log(typeof winningPlays[i]);
-			console.log('People Suck');
-			return false;
-		}
+	function winner(play, player) {
+		return play === player;
+	}
+
+	for (let x of winningPlays) {
+		let result = x.map(function(y) {
+			return parseInt(y, 10);
+		});
+
+		let winningMove = x.sort(function(a, b) {
+			return a - b;
+		});
+
+		let winPlayer = player1Array.sort(function(a, b) {
+			return a - b;
+		});
+
+		console.log(winningMove, winPlayer, result);
+		winner(winningMove, winPlayer);
 	}
 }
 
 renderBoard();
 
-/* for (let i = 0; i < winningPlays.length; i++) {
-	if ((winningPlays[i] = player1Array)) {
-		$('#topDisplay').html(`<p>~ ${player1.name} Wins!! ~</p>`);
-		console.log('Yay');
-		return true;
-	} else {
-		console.log('Nay');
-		console.log(winningPlays[i], player1Array);
-		return false;
-	}
-} */
+//parseInt(winPlayer.join('')) === parseInt(winElement.join(''))
