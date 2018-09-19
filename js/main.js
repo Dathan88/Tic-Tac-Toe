@@ -1,4 +1,5 @@
 'use strict';
+
 //'let turn' helps with playerTurn function - tracks player's turn
 let turn = -1;
 
@@ -92,8 +93,8 @@ function clearBoard() {
 	turn = -1;
 	$('.squares').remove();
 	$('#topDisplay').empty();
-	player1.array = [];
-	player2.array = [];
+	player1.moves = [];
+	player2.moves = [];
 	gameBoard.boardArray = ['', '', '', '', '', '', '', '', ''];
 	renderBoard();
 	return turn, player1.array, player2.array;
@@ -121,7 +122,7 @@ function playerTurn() {
 			$('#topDisplay').html(`<p> Draw. Game Over. </p>`);
 			checkWinner();
 		} else if (turn === 7) {
-			$('#topDisplay').html(`<p> Last Move. </p>`);
+			$('#topDisplay').html(`<p> Last Move </p>`);
 			checkWinner();
 		} else if (turn > 3) {
 			checkWinner();
@@ -136,6 +137,7 @@ function checkWinner() {
 	let player1Count = 0;
 	let player2Count = 0;
 	const values = Object.values(winningMoves);
+	console.log(player1.moves, player2.moves);
 
 	for (const value of values) {
 		player1Count = 0;
