@@ -7,16 +7,19 @@
 </head>
 <body>
 	<header>Tic-Tac-Toe</header>
-	<div class="container">
-
-		<div id="topDisplay"></div>
-
-		<div id="board"></div>
-
-		<div id="btnContainer">
-			<button id="newGameBtn" onclick="clearBoard()">New Game</button>
+	<div id="mainContainer">
+		<div id="leftContainer">
+			<div class="wins"></div>
 		</div>
-
+		<div id="boardContainer">
+			<div id="board"></div>
+			<div id="btnContainer">
+				<button id="newGameBtn" onclick="clearBoard()">New Game</button>
+			</div>
+		</div>
+		<div id="rightContainer">
+			<div class="wins"></div>
+		</div>
 	</div>
 
 <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	<!-- Load CDN first -->

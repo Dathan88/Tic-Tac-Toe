@@ -22,15 +22,18 @@ const userInput = (() => {
 const Player = (name, mark) => {
 	(this.name = name), (this.mark = mark);
 	const moves = [];
+	const wins = [];
 	const info = () => {
 		return name + ' = ' + mark;
 	};
-	return { name, mark, moves, info };
+	return { name, mark, moves, info, wins };
 };
 
 //Players info from userinput object and sends them to Player factory
 const player1 = Player(userInput.user1, userInput.mark1);
 const player2 = Player(userInput.user2, userInput.mark2);
+console.trace(player1);
+console.trace(player2);
 
 //Object containing boardArray for gameboard display/moves
 const gameBoard = {
@@ -74,70 +77,78 @@ function renderBoard() {
 }
 
 //create players display
-const createPlayerDisplays = (function() {
-	const playerDisplay = document.createElement('DIV');
+const createPlayerDisplays = (() => {
+	const turnDisplay = document.createElement('H1');
+	const player1Display = document.createElement('H1');
+	const player2Display = document.createElement('H1');
 
-	$('#topDisplay').append(function() {
-		$('#topDisplay').html(`<p >~ ${player1.name}'s Turn ~ </p>`);
-	});
-	$(playerDisplay).attr('id', 'playerDisplay');
-	$('div#board').after(playerDisplay);
-	$('#playerDisplay').html(
-		`<p id='player1Info'> ${player1.info()} </p>` +
-			`<p id='player2Info'> ${player2.info()} </p>`
-	);
+	$(turnDisplay).attr('id', 'turnDisplay');
+	$('div#mainContainer').prepend(turnDisplay);
+	$('#turnDisplay').html(`~ ${player1.name}'s Turn ~`);
+
+	$(player1Display).attr('id', 'player1Display');
+	$('div#leftContainer').prepend(player1Display);
+	$('#player1Display').html(`${player1.info()}`);
+
+	$(player2Display).attr('id', 'player2Display');
+	$('div#rightContainer').prepend(player2Display);
+	$('#player2Display').html(`${player2.info()}`);
 })();
 
 //clears board - new game
 function clearBoard() {
+	$('*').off();
 	turn = -1;
+	$('#newGameBtn').hide();
 	$('.squares').remove();
-	$('#topDisplay').empty();
+	$('#turnDisplay').html(`~ ${player1.name}'s Turn ~`);
 	player1.moves = [];
 	player2.moves = [];
 	gameBoard.boardArray = ['', '', '', '', '', '', '', '', ''];
 	renderBoard();
-	return turn, player1.array, player2.array;
+	createPlayerDisplays;
+	$('*').css('color', 'black');
+	return turn, player1.moves, player2.moves;
 }
 
 //Controls players turn and display above board
 function playerTurn() {
 	$('p.squareContent').on('click', function() {
-		const squareIndex = $('p.squareContent').index(this);
 		turn++;
+		$('#newGameBtn').show();
+		const squareIndex = $('p.squareContent').index(this);
+
 		if (turn % 2 === 0) {
 			$(this).text(player1.mark);
 			player1.moves.push(squareIndex);
 			gameBoard.boardArray.splice(squareIndex, 1, player1.mark);
-			$('#topDisplay').html(`<p>~ ${player2.name}'s Turn ~</p>`);
+			$('#turnDisplay').html(`~ ${player2.name}'s Turn ~`);
 		} else {
 			$(this).text(player2.mark);
 			player2.moves.push(squareIndex);
 			gameBoard.boardArray.splice(squareIndex, 1, player2.mark);
-			$('#topDisplay').html(`<p>~ ${player1.name}'s Turn ~</p>`);
+			$('#turnDisplay').html(`~ ${player1.name}'s Turn ~`);
 		}
 		$(this).off('click');
 
 		if (turn === 8) {
-			$('#topDisplay').html(`<p> Draw. Game Over. </p>`);
+			$('#turnDisplay').html(`Draw. Game Over.`);
 			checkWinner();
 		} else if (turn === 7) {
-			$('#topDisplay').html(`<p> Last Move </p>`);
+			$('#turnDisplay').html(` Last Move `);
 			checkWinner();
 		} else if (turn > 3) {
 			checkWinner();
 		}
-
-		console.log(turn);
 	});
 	return player1.moves, player2.moves;
 }
 
+//Checks player.moves with winningMoves
 function checkWinner() {
 	let player1Count = 0;
 	let player2Count = 0;
 	const values = Object.values(winningMoves);
-	console.log(player1.moves, player2.moves);
 
 	for (const value of values) {
 		player1Count = 0;
@@ -146,24 +157,46 @@ function checkWinner() {
 		for (let i = 0; i < value.length; i++) {
 			if (player1.moves.includes(value[i])) {
 				player1Count++;
-				//console.log(player1Count);
 				if (player1Count === 3) {
-					$('#topDisplay').html(
-						`<p> ${player1.name} Wins!!! Game Over!!! </p>`
-					);
+					player1.wins.push('X');
+					$('div#leftContainer > div.wins').html(`${player1.wins.join(' ')}`);
+					$('#turnDisplay').html(`${player1.name} Wins!!!`);
 					$('p.squareContent').off('click');
+					console.log(player1.wins.length);
 				}
 			} else if (player2.moves.includes(value[i])) {
 				player2Count++;
 				if (player2Count === 3) {
-					console.log('player 2 Winner!');
-					$('#topDisplay').html(
-						`<p> ${player2.name} Wins!!! Game Over!!! </p>`
-					);
+					player2.wins.push('X');
+					$('div#rightContainer > div.wins').html(`${player2.wins.join(' ')}`);
+					$('#turnDisplay').html(`${player2.name} Wins!!!`);
 					$('p.squareContent').off('click');
+					console.log(player2.wins);
 				}
 			}
 		}
+	}
+	gameOver();
+}
+
+function gameOver() {
+	if (player2.wins.length === 3 || player1.wins.length === 3) {
+		let letters = '0123456789ABCDEF';
+		let color = '#';
+		for (let i = 0; i < 6; i++) {
+			color += letters[Math.floor(Math.random() * 16)];
+		}
+		$('*').on('click', function() {
+			$('*').css('color', color);
+			//.toggle(2000);
+		});
+
+		player1.wins = [];
+		player2.wins = [];
+		$('div#leftContainer > div.wins').html(` `);
+		$('div#rightContainer > div.wins').html(` `);
+
+		return color, player1.wins, player2.wins;
 	}
 }
 

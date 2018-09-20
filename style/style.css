@@ -1,7 +1,7 @@
 html {
 	font-family: Alike;
-	height: 95%;
-	width: 95%;
+	min-height: 95%;
+	min-width: 95%;
 	margin: auto;
 }
 
@@ -21,22 +21,50 @@ header {
 	font-size: 3.5em;
 }
 
-.container {
+#mainContainer {
 	position: relative;
-	width: 31em;
+	margin: auto;
+	width: 90%;
+	height: 88%;
+}
+
+#leftContainer {
+	position: relative;
+	width: 25%;
+	height: 31em;
+	margin: auto;
+	float: left;
+	text-align: center;
+}
+
+#boardContainer {
+	position: absolute;
+	left: 27.5%;
+	width: 44%;
 	height: 31em;
 	margin: auto;
 }
 
-#topDisplay {
+#rightContainer {
+	position: relative;
+	width: 25%;
+	height: 31em;
+	margin: auto;
+	float: right;
+	text-align: center;
+}
+
+#turnDisplay {
 	position: relative;
 	width: 26em;
-	height: 2.5em;
 	margin: auto;
 	text-align: center;
 }
 
-#topDisplay p {
+.wins {
+	position: relative;
+	height: 100%;
+	width: 100%;
 	margin: auto;
 	font-size: 2em;
 }
@@ -73,18 +101,6 @@ header {
 	margin: .5em auto;
 }
 
-#playerDisplay p {
-	position: relative;
-	width: 10em;
-	text-align: center;
-	font-size: 1.8em;
-	letter-spacing: 1.3px;
-	word-spacing: .5em;
-	text-transform: capitalize;
-	font-variant: small-caps;
-	font-weight: bold;
-	margin: auto;
-}
 
 #btnContainer {
 	position: relative;
@@ -94,6 +110,7 @@ header {
 }
 
 #newGameBtn {
+	display: none;
 	position: relative;
 	font-size: 1.5em;
 	height: 100%;
