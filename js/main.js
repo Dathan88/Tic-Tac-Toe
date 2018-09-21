@@ -2,6 +2,7 @@
 
 //'let turn' helps with playerTurn function - tracks player's turn
 let turn = -1;
+let round = 1;
 
 //Prompts for user input on player name/mark
 const userInput = (() => {
@@ -54,6 +55,7 @@ const winningMoves = {
 
 //Creates/Displays board
 function renderBoard() {
+	$('#newGameBtn').hide();
 	//loops through each element in array to create board
 	$.each(gameBoard.boardArray, function(index) {
 		const square = document.createElement('DIV');
@@ -104,18 +106,18 @@ function clearBoard() {
 	$('#turnDisplay').html(`~ ${player1.name}'s Turn ~`);
 	player1.moves = [];
 	player2.moves = [];
+	//$('*').css('color', 'black');
 	gameBoard.boardArray = ['', '', '', '', '', '', '', '', ''];
 	renderBoard();
 	createPlayerDisplays;
-	$('*').css('color', 'black');
-	return turn, player1.moves, player2.moves;
+	// return turn, player1.moves, player2.moves;
 }
 
 //Controls players turn and display above board
 function playerTurn() {
 	$('p.squareContent').on('click', function() {
 		turn++;
-		$('#newGameBtn').show();
+		$('#nextRound').show();
 		const squareIndex = $('p.squareContent').index(this);
 
 		if (turn % 2 === 0) {
@@ -160,8 +162,9 @@ function checkWinner() {
 				if (player1Count === 3) {
 					player1.wins.push('X');
 					$('div#leftContainer > div.wins').html(`${player1.wins.join(' ')}`);
-					$('#turnDisplay').html(`${player1.name} Wins!!!`);
+					$('#turnDisplay').html(`${player1.name} Wins Round ${round}!!!`);
 					$('p.squareContent').off('click');
+					round++;
 					console.log(player1.wins.length);
 				}
 			} else if (player2.moves.includes(value[i])) {
@@ -169,8 +172,9 @@ function checkWinner() {
 				if (player2Count === 3) {
 					player2.wins.push('X');
 					$('div#rightContainer > div.wins').html(`${player2.wins.join(' ')}`);
-					$('#turnDisplay').html(`${player2.name} Wins!!!`);
+					$('#turnDisplay').html(`${player2.name} Wins Round ${round}!!!`);
 					$('p.squareContent').off('click');
+					round++;
 					console.log(player2.wins);
 				}
 			}
@@ -180,24 +184,41 @@ function checkWinner() {
 }
 
 function gameOver() {
-	if (player2.wins.length === 3 || player1.wins.length === 3) {
-		let letters = '0123456789ABCDEF';
-		let color = '#';
-		for (let i = 0; i < 6; i++) {
-			color += letters[Math.floor(Math.random() * 16)];
-		}
-		$('*').on('click', function() {
-			$('*').css('color', color);
-			//.toggle(2000);
+	if (player1.wins.length === 3) {
+		round = 1;
+		$('#turnDisplay').html(`${player1.name} Defeated ${player2.name}!!!`);
+		// $('*').addClass('animation');
+		$('html').click(function() {
+			if ($('*').hasClass('animation')) {
+				$('*').removeClass('animation');
+			} else {
+				$('*').addClass('animation');
+			}
 		});
-
-		player1.wins = [];
-		player2.wins = [];
-		$('div#leftContainer > div.wins').html(` `);
-		$('div#rightContainer > div.wins').html(` `);
-
-		return color, player1.wins, player2.wins;
+		$('#newGameBtn').show();
+		$('#nextRound').hide();
+	} else if (player2.wins.length === 3) {
+		round = 1;
+		$('#turnDisplay').html(`${player2.name} Defeated ${player1.name}!!!`);
+		$('*').click(function() {
+			if ($('*').hasClass('animation')) {
+				$('*').removeClass('animation');
+			} else {
+				$('*').addClass('animation');
+			}
+		});
+		$('#newGameBtn').show();
+		$('#nextRound').hide();
 	}
+}
+
+function newGame() {
+	$('*').removeClass('animation');
+	player1.wins = [];
+	player2.wins = [];
+	$('div#leftContainer > div.wins').html(` `);
+	$('div#rightContainer > div.wins').html(` `);
+	clearBoard();
 }
 
 renderBoard();

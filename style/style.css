@@ -109,13 +109,47 @@ header {
 	margin: auto;
 }
 
-#newGameBtn {
+.buttons {
 	display: none;
 	position: relative;
 	font-size: 1.5em;
 	height: 100%;
 	width: 100%;
 	margin: auto;
+}
+
+.animation {
+	animation-name: gameOver;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+	transition: transform 6s;
+	transform: rotate(360deg);
+}
+
+@keyframes gameOver {
+	0%   {background-color: red;}
+	10%  {background-color: tomato;}
+	20%   {color: chartreuse;}
+	30%  {background-color: yellow;}
+	40%   {background-color: dodgerblue;}
+	50%  {background-color: blue;}
+	60%   {color: lime;}
+	70%   {background-color: mediumseagreen;}
+	80% {background-color: green;}
+	90%   {background-color: orangered;}
+	100%   {background-color: red;}
+}
+
+.transform {
+	transition: width 2s, height 2s, transform 8s;
+	transform: rotate(720deg);
+}
+
+#victory {
+	position: absolute;
+	z-index: +1;
+	left: 38em;
+	bottom: 0em;
 }
 
 #square1 { border-style: none solid solid none; border-width: medium; }

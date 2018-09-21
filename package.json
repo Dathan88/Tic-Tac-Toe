@@ -1,0 +1,28 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "tic tac toe",
+  "main": "babel.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dathan88/Tic-Tac-Toe.git"
+  },
+  "keywords": [
+    "tic",
+    "tac",
+    "toe"
+  ],
+  "author": "Dathan Spencer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dathan88/Tic-Tac-Toe/issues"
+  },
+  "homepage": "https://github.com/Dathan88/Tic-Tac-Toe#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "gulp-babel": "^8.0.0-beta.2"
+  }
+}
