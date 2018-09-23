@@ -33,8 +33,6 @@ const Player = (name, mark) => {
 //Players info from userinput object and sends them to Player factory
 const player1 = Player(userInput.user1, userInput.mark1);
 const player2 = Player(userInput.user2, userInput.mark2);
-console.trace(player1);
-console.trace(player2);
 
 //Object containing boardArray for gameboard display/moves
 const gameBoard = {

@@ -97,11 +97,6 @@ header {
 	color: rgb(0, 0, 0);
 }
 
-#playerDisplay {
-	margin: .5em auto;
-}
-
-
 #btnContainer {
 	position: relative;
 	height: 3.5em;
@@ -143,13 +138,6 @@ header {
 .transform {
 	transition: width 2s, height 2s, transform 8s;
 	transform: rotate(720deg);
-}
-
-#victory {
-	position: absolute;
-	z-index: +1;
-	left: 38em;
-	bottom: 0em;
 }
 
 #square1 { border-style: none solid solid none; border-width: medium; }
