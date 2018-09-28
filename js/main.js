@@ -6,12 +6,12 @@ let round = 1;
 
 //Prompts for user input on player name/mark
 const userInput = (() => {
-	const user1 = prompt('Player #1 - What is Your Name', 'Bob');
+	const user1 = prompt('Player #1 - What is Your Name', 'Player 1');
 	const mark1 = prompt(
 		'Would ' + user1 + ' like to change game letters?',
 		'q'
 	).toUpperCase();
-	const user2 = prompt('Player #2 - What is Your Name', 'Frank');
+	const user2 = prompt('Player #2 - What is Your Name', 'Player 2');
 	const mark2 = prompt(
 		'Would ' + user2 + ' like to change game letters?',
 		'w'
