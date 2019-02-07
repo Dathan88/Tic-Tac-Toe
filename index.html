@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" type="text/css" href="/style/style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	</head>
 
-<head>
-	<title>Tic Tac Toe</title>
-	<link rel="stylesheet" type="text/css" href="/style/style.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-</head>
-
-<body>
-	<header>Tic-Tac-Toe</header>
-	<div id="mainContainer">
-		<div id="leftContainer">
-			<p class="wins"></p>
-		</div>
-		<div id="boardContainer">
-			<div id="board"></div>
-			<div id="btnContainer">
-				<button id="nextRound" class="buttons" onclick="clearBoard()">
-					Next Round
-				</button>
-				<button id="newGameBtn" class="buttons" onclick="newGame()">
-					New Game
-				</button>
+	<body>
+		<header>Tic-Tac-Toe</header>
+		<div id="mainContainer">
+			<div id="leftContainer">
+				<p class="wins"></p>
+			</div>
+			<div id="boardContainer">
+				<div id="board"></div>
+				<div id="btnContainer">
+					<button id="nextRound" class="buttons" onclick="clearBoard()">
+						Next Round
+					</button>
+					<button id="newGameBtn" class="buttons" onclick="newGame()">
+						New Game
+					</button>
+				</div>
+			</div>
+			<div id="rightContainer">
+				<p class="wins"></p>
 			</div>
 		</div>
-		<div id="rightContainer">
-			<p class="wins"></p>
-		</div>
-	</div>
 
-	<!-- jQuery CDN -->
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-	 crossorigin="anonymous"></script>
-	<!-- Local if jQuery CDN fails -->
-	<script src="js/jquery-3.3.1.js"></script>
-	<script src="js/main.js"></script>
-</body>
-
+		<!-- jQuery CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Local if jQuery CDN fails -->
+		<script src="js/jquery-3.3.1.slim.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
 </html>
