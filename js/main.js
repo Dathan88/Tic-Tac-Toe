@@ -64,9 +64,9 @@ function renderBoard() {
 
 //create players display
 function createPlayerDisplays() {
-	const turnDisplay = document.createElement('H1');
-	const player1Display = document.createElement('H1');
-	const player2Display = document.createElement('H1');
+	const turnDisplay = document.createElement('p');
+	const player1Display = document.createElement('p');
+	const player2Display = document.createElement('p');
 
 	$(turnDisplay).attr('id', 'turnDisplay');
 	$('div#mainContainer').prepend(turnDisplay);
@@ -86,6 +86,7 @@ function clearBoard() {
 	$('*').off();
 	turn = -1;
 	$('#newGameBtn').hide();
+	$('#nextRound').hide();
 	$('.squares').remove();
 	$('#turnDisplay').html(`~ ${player1.name}'s Turn ~`);
 	player1.moves = [];
@@ -101,7 +102,7 @@ function clearBoard() {
 function playerTurn() {
 	$('p.squareContent').on('click', function() {
 		turn++;
-		$('#nextRound').show();
+		$('#newGameBtn').show();
 		const squareIndex = $('p.squareContent').index(this);
 
 		if (turn % 2 === 0) {
@@ -145,9 +146,11 @@ function checkWinner() {
 				player1Count++;
 				if (player1Count === 3) {
 					player1.wins.push('X');
-					$('div#leftContainer > div.wins').html(`${player1.wins.join(' ')}`);
+					$('div#leftContainer > p.wins').html(`${player1.wins.join(' ')}`);
 					$('#turnDisplay').html(`X marks the spot for Player 1!!!`);
 					$('p.squareContent').off('click');
+					$('#newGameBtn').hide();
+					$('#nextRound').show();
 					round++;
 					console.log(player1.wins.length);
 				}
@@ -155,9 +158,11 @@ function checkWinner() {
 				player2Count++;
 				if (player2Count === 3) {
 					player2.wins.push('O');
-					$('div#rightContainer > div.wins').html(`${player2.wins.join(' ')}`);
+					$('div#rightContainer > p.wins').html(`${player2.wins.join(' ')}`);
 					$('#turnDisplay').html(`The O's win it for Player 2!!!`);
 					$('p.squareContent').off('click');
+					$('#newGameBtn').hide();
+					$('#nextRound').show();
 					round++;
 					console.log(player2.wins);
 				}
@@ -204,8 +209,8 @@ function newGame() {
 	$('*').removeClass('animation');
 	player1.wins = [];
 	player2.wins = [];
-	$('div#leftContainer > div.wins').html(` `);
-	$('div#rightContainer > div.wins').html(` `);
+	$('div#leftContainer > p.wins').html(` `);
+	$('div#rightContainer > p.wins').html(` `);
 	clearBoard();
 }
 
